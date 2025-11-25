@@ -1,0 +1,17 @@
+title: Tang Quan Blog
+subtitle: "记录思考，积累价值"
+description: "Tang Quan 的个人博客"
+author: Tang Quan
+language: zh-CN
+timezone: Asia/Shanghai
+
+url: https://yourname.github.io
+root: /
+permalink: posts/:title/
+
+theme: butterfly
+
+deploy:
+  type: git
+  repo: https://github.com/yourname/yourname.github.io.git
+  branch: main
